@@ -1,0 +1,6 @@
+C:\Repos\FogFS.FileSystem\FogFS.FileSystem\obj\Debug\FogFS.FileSystem.csprojAssemblyReference.cache
+C:\Repos\FogFS.FileSystem\FogFS.FileSystem\obj\Debug\FogFS.FileSystem.csproj.CoreCompileInputs.cache
+C:\Repos\FogFS.FileSystem\FogFS.FileSystem\bin\Debug\FogFS.FileSystem.dll
+C:\Repos\FogFS.FileSystem\FogFS.FileSystem\bin\Debug\FogFS.FileSystem.pdb
+C:\Repos\FogFS.FileSystem\FogFS.FileSystem\obj\Debug\FogFS.FileSystem.dll
+C:\Repos\FogFS.FileSystem\FogFS.FileSystem\obj\Debug\FogFS.FileSystem.pdb

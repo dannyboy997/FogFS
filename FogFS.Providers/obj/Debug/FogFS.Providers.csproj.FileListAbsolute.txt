@@ -1,0 +1,16 @@
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\FogFS.Providers.dll
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\FogFS.Providers.pdb
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\FogFS.FileSystem.dll
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\FogFS.FileSystem.pdb
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Repos\FogFS.FileSystem\FogFS.Providers\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\FogFS.FileSystem\FogFS.Providers\obj\Debug\FogFS.Providers.csprojAssemblyReference.cache
+C:\Repos\FogFS.FileSystem\FogFS.Providers\obj\Debug\FogFS.Providers.csproj.CoreCompileInputs.cache
+C:\Repos\FogFS.FileSystem\FogFS.Providers\obj\Debug\FogFS.Providers.csproj.CopyComplete
+C:\Repos\FogFS.FileSystem\FogFS.Providers\obj\Debug\FogFS.Providers.dll
+C:\Repos\FogFS.FileSystem\FogFS.Providers\obj\Debug\FogFS.Providers.pdb
