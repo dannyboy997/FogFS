@@ -31,6 +31,35 @@ namespace FogFS.FileSystem
             _volumes.Remove(name);
         }
 
+        public IVolume LookupVolumeByPath(string path)
+        {
+            return _volumes.First(e => e.Key == ParseVolumeName(path)).Value;
+        }
+
+        public string LookupLocalPath(string path)
+        {
+            if (string.IsNullOrWhiteSpace(path))
+            {
+                throw new ArgumentNullException(nameof(path));
+            }
+
+            var index = path.IndexOf('/');
+
+            return path.Substring(index, path.Length - index);
+        }
+
+        private string ParseVolumeName(string path)
+        {
+            if (string.IsNullOrWhiteSpace(path))
+            {
+                throw new ArgumentNullException(nameof(path));
+            }
+
+            var index = path.IndexOf('/');
+
+            return path.Substring(0, index);
+        }
+
         public IReadOnlyDictionary<string, VolumeBase> ListVolumes()
         {
             return _volumes;
@@ -38,7 +67,27 @@ namespace FogFS.FileSystem
 
         public string ReadAllText(string path)
         {
-            return "";
+            return LookupVolumeByPath(path).ReadAllText(LookupLocalPath(path));
+        }
+        
+        public byte[] ReadAllBytes(string path)
+        {
+            return LookupVolumeByPath(path).ReadAllBytes(LookupLocalPath(path));
+        }
+
+        public void WriteAllText(string path, string content)
+        {
+            LookupVolumeByPath(path).WriteAllText(LookupLocalPath(path), content);
+        }
+
+        public void WriteAllBytes(string path, byte[] bytes)
+        {
+            LookupVolumeByPath(path).WriteAllBytes(LookupLocalPath(path), bytes);
+        }
+
+        public void Delete(string path)
+        {
+            LookupVolumeByPath(path).Delete(LookupLocalPath(path));
         }
     }
 }
